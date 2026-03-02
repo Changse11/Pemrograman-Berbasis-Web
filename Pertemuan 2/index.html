@@ -1,0 +1,56 @@
+    <html>
+        <head>
+            <title>Tugas Praktikum 2</title>
+        </head>
+        <body>
+            <form action="" method="post" enctype="multipart/form-data">
+            <table>
+                <tr>
+                    <td><label for="nama">Nama :</label></td>
+                    <td><input type="text" name="name" placeholder="Masukan Nama Anda" id="nama"></td>
+                </tr>
+                <tr>
+                    <td><label for="umur">Umur :</label></td>
+                    <td><input type="number" name="umur" id="umur" placeholder="Masukan Umur Anda"></td>
+                </tr>
+                <tr>
+                    <td><label for="email">Email :</label></td>
+                    <td><input type="email" name="email" placeholder="Masukan Email Anda" id="email"></td>
+                </tr>
+                <tr>
+                    <td><label for="password">Password :</label></td>
+                    <td><input type="password" name="Password" placeholder="Masukan Password Anda" id="password"></td>
+                </tr>
+                <tr>
+                    <td>Jenis Kelamin :</td>
+                    <td><label><input type="radio" name="gender" value="male">Laki-laki</label></td>
+                    <td><label><input type="radio" name="gender" value="female">Perempuan</label></td>
+                </tr>
+                <tr>
+                    <td>Hobi :</td>
+                    <td><label><input type="checkbox" name="hobi[]" value="musik">Musik</label></td>
+                    <td><label><input type="checkbox" name="hobi[]" value="olahraga">Olahraga</label></td>
+                </tr>
+                <tr>
+                    <td><label for="kota">Pilih Kota :</label></td>
+                    <td>
+                        <select id="kota" name="kota">
+                            <option value="jkt">Jakarta</option>
+                            <option value="sby">Surabaya</option>
+                            <option value="mlg">Malang</option>
+                            <option value="bdg">Bandung</option>
+                            <option value="krw">Karawang</option>
+                        </select>
+                    </td>
+                </tr>
+                <tr>
+                    <td><label for="file">Upload Foto :</label></td>
+                    <td ><input type="file" name="file" accept=".png,.jpg,.jpeg" id="file"></td>
+                </tr>
+                <tr>
+                    <td><button type="submit">Daftar</button></td>
+                </tr>
+            </table>
+            </form>
+        </body>
+    </html>
