@@ -15,5 +15,6 @@
     echo "Total Harga (Sebelum Pajak): Rp." . $total_harga .  "<br>";
     echo "Pajak (10%): Rp" . $pajak . "<br>";
     echo "<b>Total Bayar: Rp." . ($total_harga + $pajak) . "</b>";
-
+    echo "<hr>";
+    echo "<a href='../Pertemuan_6/latihan_nilai.php'> Menuju ke Tugas Selanjutnya (Latihan Nilai)</a>";
 ?>
